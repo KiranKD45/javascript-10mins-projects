@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.carousel{
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+.img-conatainer{
+  display: flex;
+  transition: transform 0.3s linear ;
+  transform: translateX(0);
+}
+img{
+    object-fit:cover;
+    height: 500px;
+    width: 500px;
+}

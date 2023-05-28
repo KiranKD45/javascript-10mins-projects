@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 5rem;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+body.dark{
+    background-color: #000;
+    color: aliceblue;
+}
+label{
+ height: 50px;
+ width: 50px;
+ background-color: rgb(14, 6, 14);
+  border-radius: 50%;
+ position: fixed;
+ top: 30%;
+ right: 50%;
+ display: inline-block;
+ transition: background 0.3s linear;
+ cursor: pointer;
+}
+body.dark label{
+    background-color: aliceblue;
+}
+input{
+    visibility: hidden;
+}
